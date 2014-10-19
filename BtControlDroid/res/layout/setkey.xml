@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/SetKey_scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/UpText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_up" />
+
+                    <Spinner
+                        android:id="@+id/SpinnerUp"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/test" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/DownText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_down" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SpinnerDown"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/LeftText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_left" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SpinnerLeft"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/RightText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_right" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SpinnerRight"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/AText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_a" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SpinnerA"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/BText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_b" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SpinnerB"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/EnterText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/set_enter" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/SpinnerEnter"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content" >
+            </Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/set_sensitivity"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/mouseSet"
+                android:layout_width="260dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:max="4"
+                android:progress="0" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/ButtonSetOk"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/set_ok"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/ButtonSetCancel"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/set_cancel"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

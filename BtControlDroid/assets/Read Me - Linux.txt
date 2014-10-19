@@ -1,0 +1,31 @@
+1. To run the Server, make sure the Java version is 1.7.
+
+	
+The install package is "openjdk-7-jre"
+
+
+
+2. To update the java command execute the following
+    
+	sudo update-alternatives --config java
+
+
+
+3. Then choose the version which has 7 in it
+
+
+
+
+4. Also install the following packages
+	bluez-libs 3.7 or later
+
+5. Install the following package for the neccessary Distribution
+	libbluetooth-dev on Ubuntu
+	bluez-libs-devel on Fedora
+	bluez-devel on openSUSE
+
+6. Then perform the following commands
+    
+	chmod 711 run.sh
+    
+	./run.sh

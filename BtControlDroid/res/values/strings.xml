@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BtControlDroid</string>
+	<string name="set_key">set keys</string>
+    <string name="connected">connected</string>
+    <string name="connecting">connecting&#8230;</string>
+    <string name="not_connected">not connected</string>
+    <string name="connect_device">Connect to Devices</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string> 
+    <string name="help">Help</string> 
+    <string name="back">Back</string>
+    
+    <!--this is the specification-->    
+	<string name="introduction1">1.Installation \nWhen the first time you start this application on 
+		your Android phone, you will find a document called \'BTController\' in your SD card. There is a \'BtControlDroid\' in it. 
+        Copy this to your computer and you should notice that a JRE is needed in your computer. 
+		Don\'t worry if you delete the \'BluetoothServer.jar\' by mistake. In Settings-Applications-Manage applications menu, select 
+		the application and press clear data. Then start this application over again and you can find  \'BlueController\' document in 
+		your SD card again. Also read the README file for the OS to be able to use the server.\n</string>
+    <string name="introduction2">2.Some Conditions \nFirstly you should ensure that you have installed client and server on
+    	your Android phone and computer respectively. Secondly both your computer and Android phone should have a Bluetooth
+    	 Adapter. And you must paired this two equipments each other. Both of the two softwares above should be opened. A simple double click
+    	can start the server application on your computer. Then you can see a small icon appears in your taskbar.\n</string>
+    <string name="introduction3">3.How to use\n 
+        Press \'Menu\' button to call the menu. Then select \'connect\' to call a paired devices list. Choose a paired device to make a connection between your computer 
+        and your Android phone.If the connection is established successfully, a tip will appears on screen. Now you can use every function the software support\n</string>
+    <string name="introduction4">4.Functions\n 
+        All functions work in the Windows and Linux OS.\n
+        The mouse function can be used to control the mouse in the PC.\n
+        The Keyboard function can be used to type in the PC. User can also use the three button to simulate Shift, Ctrl and Alt.\n 
+  		The shortcut-key function can be used in Windows OS. MediaPlayer shortcut-keys now only support Zoom Media Player
+  		in the Windows OS.The \'backward\' button will only work when playing video.\n 
+  		When you use the JoyStick function, sliding the bar to the end first. Then this function can go into effect. 
+  		To close this function you should slide the bar to the start.\n</string> 
+    <string name="introduction5">5.Settings\n 
+        In settings you can change Joystick\'s buttons function. Every button represents a key on your computer keyboard. \n</string> 
+    
+    <!--this is the specification-->  
+    
+    <string name="title_other_devices">other devices</string>     
+    <string name="title_paired_devices">paired devices</string>
+    <string name="button_scan">scan for devices</string>
+    <string name="none_paired">no paired devices</string>
+    <string name="none_found">No devices found</string>
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="set_password">set password</string>
+    <string name="set_pad_key">settings</string>
+    <string name="set_up">please set up key</string>
+    <string name="set_down">please set down key</string>
+    <string name="set_left">please set left key</string>
+    <string name="set_right">please set right key</string>
+    <string name="set_a">please set A key</string>
+    <string name="set_b">please set B key</string>
+    <string name="set_enter">please set Enter key</string>
+    <string name="set_ok">Set</string>
+    <string name="set_cancel">Cancel</string>
+    <string name="set_sensitivity">mouse sensitivity</string>
+    <string name="test">choose a key</string>
+    
+    <string name="ppt_shortcut">PPT ShortCut Keys</string>
+    <string name="play">Play</string>
+    <string name="pageup">Page Up</string>
+    <string name="pagedown">Page Down</string>
+    <string name="black">Black/Recover</string>
+    <string name="hidepoint">Hide Cursor</string>
+    
+    <string name="wp_shortcut">Media Player ShortCut Keys</string>
+    <string name="wp_play">Play/Pause</string>
+    <string name="stop">Stop</string>
+    <string name="turn_up">Turn Up</string>
+    <string name="turn_down">Turn Down</string>
+    <string name="mute">Mute</string>
+    <string name="last">Previous</string>
+    <string name="next">Next</string>
+    <string name="forward">Fast Forward</string>
+    <string name="backward">Rewind</string>
+    
+    <string-array name="list">
+    	<item>Backspace</item>
+    	<item>Tab</item>
+    	<item>Enter</item>
+    	<item>Shift</item>
+    	<item>Ctrl</item>
+    	<item>Alt</item>
+    	<item>Caps Lock</item>
+    	<item>Esc</item>
+    	<item>Space</item>
+    	<item>Left</item>
+    	<item>Up</item>
+    	<item>Right</item>
+    	<item>Down</item>
+    	<item>,</item>
+    	<item>-</item>
+    	<item>.</item>
+    	<item>/</item>
+    	<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    	<item>;</item>
+    	<item>=</item>
+    	<item>A</item>
+    	<item>B</item>
+    	<item>C</item>
+    	<item>D</item>
+    	<item>E</item>
+    	<item>F</item>
+    	<item>G</item>
+    	<item>H</item>
+    	<item>I</item>
+    	<item>J</item>
+    	<item>K</item>
+    	<item>L</item>
+    	<item>M</item>
+    	<item>N</item>
+    	<item>O</item>
+    	<item>P</item>
+    	<item>Q</item>
+    	<item>R</item>
+    	<item>S</item>
+    	<item>T</item>
+    	<item>U</item>
+    	<item>V</item>
+    	<item>W</item>
+    	<item>X</item>
+    	<item>Y</item>
+    	<item>Z</item>  <!-- 54 -->
+    	<item>[</item>
+    	<item>\\</item>
+    	<item>]</item>
+    	<item>F1</item>
+    	<item>F2</item>
+    	<item>F3</item>
+    	<item>F4</item>
+    	<item>F5</item>
+    	<item>F6</item>
+    	<item>F7</item>
+    	<item>F8</item>
+    	<item>F9</item>
+    	<item>F10</item>
+    	<item>F11</item>
+    	<item>F12</item>
+    	<item>\'</item>
+    </string-array>
+    <string name="left">&lt;</string>
+</resources>
